@@ -10,12 +10,10 @@ const ranks = [
 ];
 let heroName = "Lipex";
 let heroXp = Math.round(Math.random() * 1000);
-console.log(heroXp);
 let heroRank = ranks[0];
 
 for (let i = 0; i < 10; i++) {
   heroXp = heroXp + Math.round(Math.random() * 1000);
-  console.log(heroXp);
   if (heroXp <= 1000) {
     heroRank = ranks[0];
   }
